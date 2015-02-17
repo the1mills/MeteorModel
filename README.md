@@ -1,4 +1,4 @@
-# meteorJS_model
+# MeteorModel
 
 
 "Favor object composition over class inheritance."
