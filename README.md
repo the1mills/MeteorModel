@@ -7,3 +7,5 @@
 
 
 "Always bet on JS" - Eric Elliot
+
+Object-literal outperforms everything else
