@@ -9,3 +9,5 @@
 "Always bet on JS" - Eric Elliot
 
 Object-literal outperforms everything else
+
+make sure to check for instanceof, isprototypeof, typeof etc
