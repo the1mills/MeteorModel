@@ -31,6 +31,7 @@ prop and attr are interchangeable, standing for property and attribute respectiv
 
     */
 
+////
 
 var errors = {
 
@@ -60,8 +61,8 @@ var errors = {
     },
     extraneousFieldInData: function(prop){
 
-      return 'tried to validate field >>' + prop + '<< but your schema doesnt contain this field, and because this.schemaAllowExtraneousFields is set to false,' +
-          '\nyou cannot pass fields that aren\'t represented in the schema you defined.';
+      return 'tried to validate field >>' + prop + '<< but your schema doesnt contain this field, and because this.schemaAllowExtraneousFields is set to false;' +
+          '\nyou cannot pass fields that aren\'t represented in the schema you defined in your MeteorModel expansion object.';
 
     },
     beforeSavingModelYouMustDefineACollectionToSaveTo: function(){
