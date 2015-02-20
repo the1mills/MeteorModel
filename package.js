@@ -17,7 +17,7 @@ Package.onUse(function(api) {
 //   api.versionsFrom('1.0.3.1');
 //  api.use(['meteormodelx'],['client', 'server']);
   api.addFiles(['the1mills:meteormodelx.js'],['client','server']);
-  api.export(['MeteorModelPrototype'],['client', 'server']);
+  api.export(['MeteorModel'],['client', 'server']);
 });
 
 Package.onTest(function(api) {
